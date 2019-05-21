@@ -58,6 +58,88 @@ body .Header{
 	border-radius: 3%;
 	box-shadow: 5px 3px 5px silver;
 }
+p{
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 740px){
+	.Header{
+		display: grid;
+		margin-left: -63%;
+		grid-template-columns:  1fr 1fr 1fr;
+		grid-template-rows: 500px 500px;
+	}
+	.menu{
+		list-style: none;
+	}
+	img.pc{
+		display: none;	
+	}
+	img.smartphone{
+		width: 31%;
+		height: auto;
+		margin-top: -5%;
+		position: absolute;
+		margin-left: 14.45%;
+	}
+	ul{
+		display: none;
+	}
+	section.menu{
+		background-color: #1E1E1E;
+		border: 1px solid black;
+		border-radius: 5px;
+		margin-top: -5%;
+		width: 100%;
+		height: 7vh;
+		
+	}
+	#titre{
+		margin-top: 2%;
+		margin-left: 0%;
+		text-align: center;
+		font-size: 1.4em;
+		width: 100%;
+		height: 30vh;
+		border: none;
+		box-shadow: none;
+	}
+}
 
 	
 
