@@ -51,7 +51,7 @@ body .Header{
 	grid-gap: 3%;
 	margin-top: 5%;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 480px 480px;
+	grid-template-rows: 550px 550px;
 }
 .carousel{
 	border-radius: 3%;
@@ -63,6 +63,45 @@ body .Header{
 }
 p{
 	text-align: justify;
+}
+.footer{
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+	
+	background-color: #1E1E1E;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 10%;
+	height: 9vh;
+}
+.fab{
+	margin-right: 3em;
+	width: 50%;
+}
+.fa-facebook{
+	color: #395498;
+}
+.fa-instagram{
+	color: #ec414f;
+}
+.fa-twitter-square{
+	color: #1c9ceb;
+}
+.fa-snapchat{
+	color: #f7f400;
+}
+.FootHead{
+	display: flex;
+	justify-content: space-between;
+	background-color: #1E1E1E;
+	color: silver;
+	margin-top: -1%;
+	padding: 0.7%;
+}
+hr{
+	opacity: 0.5;
+	margin-top: 0%;
 }
 
 
